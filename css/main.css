@@ -37,12 +37,12 @@ header {
   background: #d5d5d5;
 }
 
-#column-2 {
-  background: #d5d5d5;
+#column-2{
+  background: #c4c4c4;
 }
 
-#column-3 {
-  background: #d5d5d5;
+#column-3{
+  background: #b7b7b7;
 }
 
 
@@ -56,29 +56,33 @@ footer {
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
+/* Change the colors below */
 
 @media (min-width: 768px) {
   header {
-    background-color: red;
+    background-color: black;
   }
 
   #column-1 {
-    background-color: green;
+    background-color: #e3e3e3;
   }
 
   #column-2 {
-    background-color: blue;
+    background-color: #CCC;
   }
 
   #column-3 {
-    background-color: yellow;
+    background-color: blue;
+    width: 100%
   }
 
   footer {
-    background-color: orange;
+    background-color: #666;
   }
 
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
@@ -89,19 +93,23 @@ footer {
   }
 
   #column-1 {
-    background-color: brown;
+    background-color: red;
   }
 
   #column-2 {
-    background-color: pink;
+    background-color: green;
   }
 
   #column-3 {
-    background-color: grey;
+    background-color: yellow;
+    width: 33.3%;
   }
 
   footer {
-    background-color: magenta;
+    background-color: orange;
   }
 
+  .col-3 {
+    width: 33.3%;
+  }
 }
